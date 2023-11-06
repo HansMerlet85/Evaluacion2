@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".prerecederos"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/textPerece"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Alimentos Perecederos" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="227dp"
+        android:layout_height="234dp"
+        app:srcCompat="@drawable/pngtree_fruit_and_vegetable_combination_png_image_6348157"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <TextView
+        android:id="@+id/codeper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Codigo" />
+
+    <TextView
+        android:id="@+id/descper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descripcion" />
+
+    <TextView
+        android:id="@+id/prizeper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Precio" />
+
+    <TextView
+        android:id="@+id/endper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dias por vencer" />
+
+    <TextView
+        android:id="@+id/valueper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nuevo Valor" />
+
+    <Button
+        android:id="@+id/newbutper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cacular nuevo valor" />
+
+    <Button
+        android:id="@+id/creaper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear" />
+
+    <Button
+        android:id="@+id/consper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar" />
+
+</LinearLayout>

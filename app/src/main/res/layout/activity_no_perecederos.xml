@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".noPerecederos"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/textNoper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Alimentos No Perecederos" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sin_t_tulo" />
+
+    <TextView
+        android:id="@+id/codenoper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Codigo" />
+
+    <TextView
+        android:id="@+id/descnoper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descripcion" />
+
+    <TextView
+        android:id="@+id/typenoper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipo de producto" />
+
+    <Button
+        android:id="@+id/creabtnnoper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear" />
+
+    <Button
+        android:id="@+id/consnoper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar" />
+
+</LinearLayout>
